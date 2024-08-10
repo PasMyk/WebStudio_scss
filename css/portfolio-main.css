@@ -1,0 +1,401 @@
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #2196F3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.logo-span-main {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.contact-email,
+.contact-phone {
+  color: rgb(117, 117, 117);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.header-container {
+  display: flex;
+  padding: 24px 0px 25px 0px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 51px;
+  padding: 0px 312px 0px 93px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link::before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  position: absolute;
+  background: rgb(33, 150, 243);
+  transition-duration: 250ms;
+  transition-property: opacity;
+  transition-timing-function: linear;
+  opacity: 0;
+  top: 55px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link:hover {
+  color: rgb(33, 150, 243);
+}
+
+.nav-link:hover::before {
+  opacity: 1;
+}
+
+.footer-name {
+  color: rgb(33, 150, 243);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.footer-link {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.footer-info {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.footer-email,
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.footer-text {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0px 0px 20px 0px;
+}
+
+.footer-btn {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(33, 150, 243);
+  padding: 10px 28px;
+}
+
+.footer-share {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0px 0px 20px 0px;
+}
+
+.footer {
+  background-color: rgb(47, 48, 58);
+}
+
+.footer-sector {
+  display: flex;
+}
+
+.footer-info {
+  margin: auto 0;
+  padding: 20px 0px 0px 0px;
+}
+
+.footer-contact-info {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.own-fot {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 70px 60px 0px;
+}
+
+.contact-footer {
+  padding: 72px 95px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 206px;
+  height: 80px;
+}
+
+.contact-cha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-elp {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  fill: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-property: fill;
+}
+
+.telegram {
+  padding: 72px 0px 94px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-tele {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-input {
+  padding: 15px 295px 15px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+  color: white;
+}
+
+.contact-elp:hover {
+  background: rgb(33, 150, 243);
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-property: background;
+}
+
+.nav-link {
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.filter-link {
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.portfolio-title {
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 6%;
+  text-align: left;
+}
+
+.portfolio-category {
+  color: rgb(117, 117, 117);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.portfolio-text {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.filter-link {
+  border-radius: 4px;
+  background: rgb(245, 244, 250);
+  padding: 6px 22px;
+}
+
+.filter-item {
+  list-style: none;
+}
+
+.portfolio-title {
+  margin: auto 0px;
+}
+
+.portfolio-category {
+  margin: auto 0;
+}
+
+.filter-list {
+  display: flex;
+  gap: 8px;
+  padding: 95px 0px 50px 0px;
+  justify-content: center;
+  transition-duration: 250ms;
+  transition-property: background;
+  transition-timing-function: linear;
+}
+
+.filter-link:hover {
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(33, 150, 243);
+  transition-duration: 250ms;
+  transition-property: background;
+  transition-timing-function: linear;
+  color: white;
+}
+
+.portfolio-item {
+  box-sizing: border-box;
+  border: 1px solid rgb(238, 238, 238);
+  background: rgb(255, 255, 255);
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.portfolio-item:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(238, 238, 238);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  background: rgb(255, 255, 255);
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.portfolio-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 0px 0px 94px 0px;
+}
+
+.portfolio-text {
+  background: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  width: 100%;
+  height: 100%;
+  transform: translate(0, 100%);
+  transition-duration: 250ms;
+  transition-property: transform;
+  transition-timing-function: linear;
+  margin: 0;
+  position: absolute;
+}
+
+.portfolio-box {
+  width: 370px;
+  height: 294px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4;
+  padding: 20px 24px;
+}
+
+.portfolio-box:hover .portfolio-text {
+  transform: translate(0, -100%);
+}
+
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
