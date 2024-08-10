@@ -90,8 +90,8 @@
 }
 
 .portfolio-box {
-    width: 370px;
-    height: 294px;
+    // width: 370px;
+    // height: 294px;
     overflow: hidden;
     position: relative;
 }
@@ -101,6 +101,12 @@
     flex-direction: column;
     gap: 4;
     padding: 20px 24px;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .portfolio-box:hover .portfolio-text {
