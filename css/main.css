@@ -14,6 +14,11 @@ span {
   text-align: left;
 }
 
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo-link {
   color: rgb(0, 0, 0);
   font-family: Raleway;
@@ -389,13 +394,13 @@ a {
 }
 
 .feature-title {
-  margin: auto 0;
+  margin: 0;
   padding: 30px 0px 0px 0px;
   width: 270px;
 }
 
 .feature-description {
-  margin: auto 0;
+  margin: 0;
   width: 270px;
 }
 
@@ -411,8 +416,8 @@ a {
 
 .service-text1 {
   position: absolute;
-  right: 953px;
-  top: 1497px;
+  right: 952px;
+  top: 1463px;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -424,8 +429,8 @@ a {
 
 .service-text2 {
   position: absolute;
-  right: 551px;
-  top: 1497px;
+  right: 552px;
+  top: 1463px;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -438,7 +443,7 @@ a {
 .service-text3 {
   position: absolute;
   right: 151px;
-  top: 1497px;
+  top: 1463px;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -630,4 +635,224 @@ a {
   transition-duration: 250ms;
   transition-timing-function: linear;
   transition-property: fill;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: coral;
+  }
+  .header__navigation {
+    display: flex;
+    gap: 51px;
+    padding: 0px 96px 0px 88px;
+  }
+  .container {
+    width: 768px;
+  }
+  .header__contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .header-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .header-phone {
+    width: 123px;
+  }
+  .header-email {
+    width: 138px;
+  }
+  .main-sector {
+    display: flex;
+    width: 360px;
+    height: 164px;
+  }
+  .intro-heading {
+    margin: 0;
+    padding: 118px 0px 0px 0px;
+  }
+  .text-sector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .text-img1,
+  .text-img2,
+  .text-img3,
+  .text-img4 {
+    width: 354px;
+    height: 120px;
+  }
+  .feature-box {
+    display: flex;
+    gap: 10px;
+  }
+  .services {
+    display: none;
+  }
+  .main-members {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .team__member {
+    width: 354px;
+    height: 536px;
+  }
+  .clients {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .client {
+    width: 226px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+  }
+  .own-fot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+  }
+  .footer-sector {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-footer {
+    display: flex;
+    align-items: center;
+    padding: 65px 0px 0px 0px;
+    justify-content: center;
+  }
+  .footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .telegram {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .form-tele {
+    display: flex;
+    flex-direction: column;
+  }
+  .combo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-share {
+    padding: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .header__navigation {
+    display: none;
+  }
+  body {
+    background-color: aqua;
+  }
+  .header-svg {
+    fill: black;
+  }
+  .container {
+    width: 480px;
+  }
+  .header__contact-info {
+    display: none;
+  }
+  .header-menu {
+    display: flex;
+    align-items: center;
+  }
+  .header-svg {
+    padding: 0px 0px 0px 276px;
+  }
+  .intro-heading {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 6%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 360px;
+  }
+  .main-sector {
+    display: flex;
+    gap: 30px;
+  }
+  .text-sector {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .feature {
+    display: flex;
+  }
+  .text-img1,
+  .text-img2,
+  .text-img3,
+  .text-img4 {
+    width: 100%;
+    display: block;
+    display: flex;
+  }
+  .feature-box {
+    display: flex;
+    align-items: center;
+  }
+  .feature-title {
+    width: 270px;
+  }
+  .feature-description {
+    width: 450px;
+  }
+  .clients-sector {
+    display: flex;
+    width: 450px;
+  }
+  .client {
+    display: flex;
+    width: 210px;
+    height: 92px;
+  }
+  .clients {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 60px 0px;
+  }
+  .footer-sector {
+    display: flex;
+    margin: 0;
+  }
+  .combo {
+    display: flex;
+    flex-direction: column;
+  }
+  .telegram {
+    width: 450px;
+    height: 156px;
+  }
+  .contact-footer {
+    padding: 60px 0px 0px 0px;
+  }
+  .form-tele {
+    display: flex;
+    gap: 20px;
+  }
+  .footer-form {
+    width: 450px;
+    height: 50px;
+  }
+  .feature {
+    width: 460px;
+  }
 }

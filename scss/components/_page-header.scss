@@ -13,6 +13,11 @@ span {
     text-align: left;
 }
 
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo-link {
     color: rgb(0, 0, 0);
     font-family: Raleway;
