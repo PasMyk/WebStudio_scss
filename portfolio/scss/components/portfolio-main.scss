@@ -1,5 +1,14 @@
 @import './portfolio-header', './portfolio-footer', './portfolio-placeholders';
 
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.svg-portfolio {
+    display: none;
+}
 
 .container {
     width: 1200px;
@@ -99,7 +108,7 @@
 .portfolio-details {
     display: flex;
     flex-direction: column;
-    gap: 4;
+    gap: 4px;
     padding: 20px 24px;
 }
 
@@ -113,8 +122,197 @@
     transform: translate(0, -100%);
 }
 
- *::before,
- *::after,
- * {
-     box-sizing: border-box;
- }
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 768px;
+    }
+
+    .nav-list {
+        padding: 0px 90px 0px 88px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header {
+        padding: 26px 0px 26px 0px;
+    }
+
+    .portfolio-container {
+        display: flex;
+        padding: 30px 0px 60px 15px;
+    }
+
+    .portfolio-item {
+        width: 354px;
+    }
+
+    .filter-list {
+        margin: 0;
+        padding: 60px 0px 0px 0px;
+    }
+
+    .combo {
+        display: flex;
+    }
+
+    .own-fot {
+        padding: 60px 165px 0px 76px;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-sector {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-footer {
+        padding: 65px 89px 0px 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .telegram {
+        display: flex;
+        align-items: center;
+        padding: 60px 0px;
+    }
+
+    .form-tele {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:480px) {
+    .svg-portfolio {
+        display: block;
+    }
+
+    .contact-info {
+        display: none;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .container {
+        width: 480px;
+    }
+
+    .logo {
+        padding: 0px 276px 0px 0px;
+    }
+
+    .header {
+        padding: 16px 0px 16px 0px
+    }
+
+    .filter-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 60px 0px 40px 0px;
+        gap: 8px;
+        width: 326px;
+        row-gap: 15px;
+    }
+
+    .portfolio-container {
+        display: flex;
+    }
+
+    .portfolio-item {
+        width: 450px;
+    }
+
+    .portfolio-text {
+        padding: 77px 24px;
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 3%;
+        text-align: left;
+    }
+
+    .combo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-footer {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .form-tele {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .telegram {
+        display: flex;
+        align-items: center;
+        padding: 60px 0px;
+        gap: 20px;
+    }
+
+    .footer-share {
+        padding: 60px 0px 0px 0px;
+    }
+    .own-fot {
+        padding: 108px 124px 0px 124px;
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        width: 320px;
+        padding: 0;
+    }
+
+    .footer-input {
+        padding: 15px 136px 15px 16px;
+    }
+
+    .logo {
+        padding: 0px 130px 0px 6px;
+    }
+    .filter-list {
+        width: 100%;
+        padding: 60px 0px 40px 5px;
+    }
+    .svg-div {
+        width: 40px;
+        height: 40px;
+    }
+    .portfolio-item {
+        width: 310px;
+        padding: 0px 0px 0px 10px;
+    }
+    .footer-info {
+        width: 125px;
+        text-align: center;
+    }
+}

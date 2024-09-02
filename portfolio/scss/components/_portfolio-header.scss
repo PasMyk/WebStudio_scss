@@ -39,6 +39,21 @@ a {
     line-height: 16px;
     letter-spacing: 2%;
     text-align: left;
+    
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+}
+
+.header {
+    padding: 24px 0px 0px 0px;
 }
 
 .header-container {
@@ -56,6 +71,7 @@ a {
 .contact-info {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .nav-link::before {

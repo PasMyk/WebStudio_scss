@@ -347,8 +347,31 @@ span {
   text-align: center;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
+}
+
+.header-svg {
+  display: none;
+}
+
+.footer-sector {
+  display: flex;
+}
+
+.footer-sag {
+  padding: 0px 70px 0px 0px;
+}
+
+.combo {
+  display: flex;
+  padding: 0px 93px 0px 0px;
 }
 
 .intro {
@@ -396,7 +419,6 @@ a {
 .feature-title {
   margin: 0;
   padding: 30px 0px 0px 0px;
-  width: 270px;
 }
 
 .feature-description {
@@ -416,8 +438,8 @@ a {
 
 .service-text1 {
   position: absolute;
-  right: 952px;
-  top: 1463px;
+  right: 0px;
+  top: 225px;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -429,8 +451,8 @@ a {
 
 .service-text2 {
   position: absolute;
-  right: 552px;
-  top: 1463px;
+  right: 0px;
+  top: 225px;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -442,8 +464,8 @@ a {
 
 .service-text3 {
   position: absolute;
-  right: 151px;
-  top: 1463px;
+  right: 0px;
+  bottom: 0px;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -451,6 +473,10 @@ a {
   text-align: center;
   box-sizing: border-box;
   padding: 27px 0px 0px 0px;
+}
+
+.services-images__item {
+  position: relative;
 }
 
 .team-heading {
@@ -760,6 +786,7 @@ a {
   }
   .header-svg {
     fill: black;
+    display: block;
   }
   .container {
     width: 480px;
@@ -793,6 +820,8 @@ a {
     display: flex;
     flex-direction: column;
     margin: 0;
+    align-items: center;
+    padding: 0px 0px 60px 0px;
   }
   .feature {
     display: flex;
@@ -808,9 +837,6 @@ a {
   .feature-box {
     display: flex;
     align-items: center;
-  }
-  .feature-title {
-    width: 270px;
   }
   .feature-description {
     width: 450px;
@@ -832,10 +858,15 @@ a {
   .footer-sector {
     display: flex;
     margin: 0;
+    align-items: center;
+  }
+  .footer-sag {
+    padding: 0;
   }
   .combo {
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
   .telegram {
     width: 450px;
@@ -849,10 +880,76 @@ a {
     gap: 20px;
   }
   .footer-form {
-    width: 450px;
     height: 50px;
   }
   .feature {
     width: 460px;
+  }
+  .intro {
+    background-image: url(../../images/шапка.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .team__member {
+    width: 450px;
+    height: 622px;
+  }
+}
+@media (max-width: 320px) {
+  .intro {
+    background-image: url(../../images/шапка.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 320px;
+  }
+  .header-svg {
+    padding: 0px 0px 0px 140px;
+  }
+  .intro-heading {
+    width: 100%;
+  }
+  .feature {
+    width: 300px;
+    display: flex;
+  }
+  .feature-description {
+    width: 300px;
+  }
+  .text-sector {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-img1 {
+    width: 100%;
+  }
+  .telegram {
+    width: 320px;
+  }
+  .footer-sector {
+    display: flex;
+  }
+  .clients {
+    display: flex;
+  }
+  .footer-input {
+    padding: 15px 136px 15px 16px;
+  }
+  .team__member {
+    width: 310px;
+    height: 468px;
+  }
+  .team-members {
+    display: flex;
+    margin: 0;
+  }
+  .form-tele {
+    width: 320px;
+  }
+  .features {
+    padding: 5px 0px 0px 0px;
   }
 }
